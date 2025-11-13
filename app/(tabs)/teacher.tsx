@@ -1,16 +1,16 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-export default function AcademyHomeScreen() {
+export default function TeacherHomeScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>학원(관리자) 홈</Text>
+      <Text style={styles.title}>강사 홈</Text>
       <Text style={styles.text}>
-        앞으로 이 화면에서 학원 전체 대시보드, 반 관리, 강사 관리,
-        공지 작성 등을 하게 됩니다.
+        앞으로 이 화면에서 오늘 수업 목록, 각 반 학생 리스트, 출결 체크,
+        학생 메모, 시험 입력 등을 하게 됩니다.
       </Text>
       <Text style={styles.textSub}>
-        지금은 구조만 만드는 단계라, 단순한 안내 문구만 넣어둔 상태입니다.
+        현재는 역할별 화면 구조만 잡아둔 상태입니다.
       </Text>
     </View>
   );
